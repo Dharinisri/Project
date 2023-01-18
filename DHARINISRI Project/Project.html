@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="Image/6.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style1.css">
+<script src="script.js"></script>
+</head>
+<body>
+<ol id="three">
+<img src="Image/21.jpg" height="40" width="250">
+<li class="a"><a href="#container">Home</a></li>
+<li class="a1"><a href="#one">Fashion</a></li>
+<li class="a2"><a href="#two">Trends</a></li>
+<li class="a3"><a href="#latha">Dresses</a></li>
+<li class="a4"><a href="#latha2">Clothing</a></li>
+<li class="a5"><a href="#column">Support</a></li>
+</ol>
+<button class="a6"onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  <form class="modal-content animate" action="database connectivity.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="Image/21.jpg" height="40" width="250">
+    </div>
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="username" required>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="password" required>
+      <button type="submit">Login</button>
+	  <button type="submit">Reset</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+<div id="container">
+<div class="mySlides">
+  <img src="Image/7.webp" style="width:100%">
+</div>
+<div class="mySlides">
+  <img src="Image/18.webp" style="width:100%">
+</div>
+<center>
+<button class="five" onclick="plusDivs(-1)">&#10094;</button>
+<button class="five" onclick="plusDivs(1)">&#10095;</button>
+</center>
+</div>
+<script src="script.js"></script>
+<ul id="one">
+<li class="six">
+<img src="Image/10.png" height="30%" width="30%">
+<p><a href="#">ISO Certified brand</p></a>
+</li>
+<li class="seven">
+<img src="Image/14.png" height="30%" width="30%">
+<p><a href="#">Return & Exchange</p></a>
+</li>
+<li class="eight">
+<img src="Image/12.jpg" height="30%" width="30%">
+<p><a href="#">GMP Certified brand</p></a>
+</li>
+<li class="nine">
+<img src="Image/17.jpeg" height="15%" width="10%">
+<p><a href="#">Secure shopping</p></a>
+</li>
+</ul><br><br>
+<div id="two">
+<img class="ten"src="Image/9.webp">
+</div>
+<div>
+<div id="latha">
+<img src="Image/2.webp" height="45%" width="45%">
+<div>
+<h2>MAX FASHION</h2>
+</div>
+</div>
+<div id="latha1" >
+<img src="Image/5.webp" height="115%" width="115%">
+<div>
+<h2>U.S.POLO ASSN</h2>
+</div>
+</div>
+<div id="latha2">
+<img src="Image/4.webp" height="100%" width="100%">
+<div>
+<h2>FLYING MACHINE</h2>
+</div>
+</div>
+<div id="latha3">
+<img src="Image/20.webp" height="110%" width="110%">
+<div>
+<h2>PANTALOONS</h2>
+</div>
+</div>
+</div><br><br>
+<button id="latha5"><a href="#three">Back to Top</a></button>
+<div id="row">
+  <div id="column">
+    <h3>Company</h3>
+      <p>About Us</p>
+      <p>Careers</p>
+	  <p>Contact Us</p>
+	  <p>Rini Fashion</p>
+	  <p>Gift Cards</p>
+  </div>
+  <div class="column1">
+    <h3>Fashion Hub</h3>
+      <p>Order Status</p>
+      <p>Returns & Exchange</p>
+	  <p>International Orders</p>
+	  <p>Investor Relations</p>
+	  <p>Terms And Conditions</p>
+  </div>
+  <div class="column2">
+    <h3>Delhivery Product</h3>
+      <p>FAQs</p>
+      <p>Cancellation policy</p>
+	  <p>Shipping Policy</p>
+	  <p>Ordering & Payment</p>
+	  <p>Size Guide</p>
+	  <p>Wholesale Enquiry</p>
+  </div>
+  <div class="column3">
+    <h3>INFORMATION</h3>        
+      <p>Privacy Policy</p>
+      <p>Disclaimer</p>
+	  <p>Terms & Conditions</p>
+	  <p>Shipping & Delivery</p>
+	  <p>Refund / Return Policy</p>
+	  <p>Blogs</p>
+  </div>
+</div>
+</body>
+</html>
